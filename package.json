@@ -1,0 +1,26 @@
+{
+  "name": "news-headline-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "commander": "^11.0.0",
+    "compromise": "^14.10.0",
+    "csv-parser": "^3.0.0",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.1",
+    "natural": "^6.7.2",
+    "node-nlp": "^4.27.0",
+    "sentiment": "^5.0.2"
+  }
+}
